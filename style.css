@@ -1,0 +1,139 @@
+
+
+
+html
+{
+	font-size:100%;
+}
+
+ .main-content {
+
+  display: grid;
+  width: 90%;
+  grid-template-columns: 300px 700px;
+  min-height: auto;
+  margin-left: 25px;
+
+}
+   .left-section {
+    width: 300px;
+    display: inline-block;
+    background-color: #5addb1;
+    /* z-index: 0; */
+    border-radius: 15px;
+
+}
+.right-content{
+    width:700px;
+    float: right;
+}
+.left-content{
+            padding: 1rem;
+}
+
+.profile-image{
+    display:block;
+    margin: auto;
+    border: 5px solid #fff;
+    border-radius:30%;
+    width: 60%;
+}
+.name{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    text-decoration: uppercase;
+    letter-spacing: 0.02px;
+    margin: 0;
+    padding-top: 21px;
+
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-decoration:uppercase;
+    padding-bottom: 0.5rem;
+    margin: 7px;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+.contact-info ul li{
+list-style: none;
+margin: 10px 0;
+cursor: pointer;
+}
+.icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+  .ltd {
+    text-decoration: none;
+    color: red;
+}
+
+.skills{
+
+    font-size: 0.75rem;
+    text-align: center;
+    text-decoration: uppercase;
+    padding: 1rem 0.5rem;
+}
+.skill-name{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+.progress-bar{
+    border:1px solid #fff ;
+    height: 4px;
+}
+.right-main-section{
+    padding: 0 3rem;
+
+}
+.right-title{
+    text-decoration: uppercase;
+    font-size:1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.tab{
+    padding: 0.5rem;
+    width: 100%;
+}
+.ull{
+  margin-left: -20px;
+}
+ td, th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;%;
+}
+th{
+    height: 50px;
+}
+.exp-text{margin:0.5rem;}
+
+@media only screen amd (max-width:674px){
+    .main-content{
+        grid-template-columns:repeat(1, 1fr);
+    }
+
+} 
